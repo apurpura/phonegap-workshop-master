@@ -1,27 +1,30 @@
 var app = {
 
+    showAlert: function (message, title) {
+        if (navigator.notification) {
+            navigator.notification.alert(message, null, title, 'OK');
+        } else {
+            alert(title ? (title + ": " + message) : message);
+        }
+    },
 
-
+    registerEvents: function() {
+        $('body').on('mousedown', 'a', function(event) {
+            $(event.target).addClass('tappable-active');
+        });
+        $('body').on('mouseup', 'a', function(event) {
+            $(event.target).removeClass('tappable-active');
+        });
+    },
 
     initialize: function() {
         var self = this;
-        this.homeTpl = Handlebars.compile($("#home-tpl").html());
-        this.employeeLiTpl = Handlebars.compile($("#employee-li-tpl").html());
-        this.store = new WebSqlStore(function() {
-            //showAlert('Store Initialized', 'Info');
+        this.registerEvents();
+        this.store = new MemoryStore(function() {
             $('body').html(new HomeView(self.store).render().el);
         });
-        $('.search-key').on('keyup', $.proxy(this.findByName, this));
-
     }
 
 };
 
 app.initialize();
-
-function showAlert (message, title) {
-    if (navigator.notification) {
-        navigator.notification.alert(message, null, title, 'OK');
-    } else {
-        alert(title ? (title + ": " + message) : message);
-    }}
