@@ -17,11 +17,13 @@
 
 
 <script id="employee-li-tpl" type="text/x-handlebars-template">
-    <div id="wrapper">
-        {{#.}}
-        <li><a href="#employees/{{this.id}}">{{this.firstName}} {{this.lastName}}<br/>{{this.title}}</a></li>
-        {{/.}}
-    </div>
+     <div id="wrapper">
+           <div id="scroller">
+                {{#.}}
+                <li><a href="#employees/{{this.id}}">{{this.firstName}} {{this.lastName}}<br/>{{this.title}}</a></li>
+                {{/.}}
+           </div>
+     </div>
 </script>
 
 <script src="phonegap.js"></script>
