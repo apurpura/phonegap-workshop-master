@@ -26,7 +26,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="42" selection-start="1656" selection-end="1656" vertical-scroll-proportion="-20.923077" vertical-offset="204" max-vertical-offset="918">
+            <state line="35" column="74" selection-start="1472" selection-end="1472" vertical-scroll-proportion="-15.038462" vertical-offset="204" max-vertical-offset="952">
               <folding />
             </state>
           </provider>
@@ -35,7 +35,7 @@
       <file leaf-file-name="EmployeeView.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/EmployeeView.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="30" selection-start="145" selection-end="145" vertical-scroll-proportion="0.18021202" vertical-offset="0" max-vertical-offset="566">
+            <state line="35" column="6" selection-start="1151" selection-end="1151" vertical-scroll-proportion="0.8498233" vertical-offset="114" max-vertical-offset="1003">
               <folding />
             </state>
           </provider>
@@ -91,8 +91,8 @@
       <list>
         <option value="$PROJECT_DIR$/js/HomeView.js" />
         <option value="$PROJECT_DIR$/css/styles.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/EmployeeView.js" />
       </list>
     </option>
@@ -317,13 +317,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="42" selection-start="1656" selection-end="1656" vertical-scroll-proportion="-20.923077" vertical-offset="204" max-vertical-offset="918">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="0" selection-start="618" selection-end="618" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="867">
@@ -331,9 +324,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="74" selection-start="1472" selection-end="1472" vertical-scroll-proportion="-15.038462" vertical-offset="204" max-vertical-offset="952">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/EmployeeView.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="30" selection-start="145" selection-end="145" vertical-scroll-proportion="0.18021202" vertical-offset="0" max-vertical-offset="566">
+        <state line="35" column="6" selection-start="1151" selection-end="1151" vertical-scroll-proportion="0.8498233" vertical-offset="114" max-vertical-offset="1003">
           <folding />
         </state>
       </provider>
