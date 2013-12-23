@@ -44,7 +44,7 @@ var EmployeeView = function(employee) {
             },
             function() {
                 showAlert('Error getting location', 'Location Error');
-            });
+            }, {timeout:10000});
         return false;};
 
     this.showAlert = function (message, title) {
