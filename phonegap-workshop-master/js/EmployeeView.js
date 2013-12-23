@@ -43,6 +43,7 @@ var EmployeeView = function(employee) {
         return false;};
 
     function onSuccess (position) {
+        showAlert('Error getting location', 'Location Error');
         $('.location', this.el).html(position.coords.latitude + ',' + position.coords.longitude);
     }
 
@@ -51,13 +52,13 @@ var EmployeeView = function(employee) {
     }
 
 
-    this.showAlert = function (message, title) {
+    function showAlert (message, title) {
         if (navigator.notification) {
             navigator.notification.alert(message, null, title, 'OK');
         } else {
             alert(title ? (title + ": " + message) : message);
         }
-    };
+    }
 
     this.initialize();
 
