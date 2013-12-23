@@ -43,9 +43,17 @@ var EmployeeView = function(employee) {
                 $('.location', this.el).html(position.coords.latitude + ',' + position.coords.longitude);
             },
             function() {
-                alert('Error getting location');
+                showAlert('Error getting location', 'Location Error');
             });
         return false;};
+
+    this.showAlert = function (message, title) {
+        if (navigator.notification) {
+            navigator.notification.alert(message, null, title, 'OK');
+        } else {
+            alert(title ? (title + ": " + message) : message);
+        }
+    };
 
     this.initialize();
 
