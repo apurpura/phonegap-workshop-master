@@ -64,6 +64,9 @@ var EmployeeView = function(employee) {
         }else if( err.code == 2) {
             showAlert("Location Error: Position is unavailable!", "Location Error");
         }
+        else{
+            showAlert("Location Error: Error getting your location!", "Location Error");
+        }
     }
 
 
