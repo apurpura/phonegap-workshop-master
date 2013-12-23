@@ -49,7 +49,7 @@ var EmployeeView = function(employee) {
                 onSuccess,onError,
                 options);
         }else{
-            showAlert("Sorry, browser does not support geolocation!", "Browser unsupported");
+            showAlert('Sorry, browser does not support geolocation!', 'Browser unsupported');
         }
 
         return false;};
@@ -60,12 +60,12 @@ var EmployeeView = function(employee) {
 
     function onError (err) {
         if(err.code == 1) {
-            showAlert("Location Error: Access is denied!", "Location Access Error");
+            showAlert('Location Error: Position is unavailable!', 'Location Error');
         }else if( err.code == 2) {
-            showAlert("Location Error: Position is unavailable!", "Location Error");
+            showAlert('Location Error: Position is unavailable!', 'Location Error');
         }
         else{
-            showAlert("Location Error: Error getting your location!", "Location Error");
+            showAlert('Location Error: Error getting your location!', 'Location Error');
         }
     }
 
