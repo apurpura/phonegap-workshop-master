@@ -40,7 +40,11 @@ var EmployeeView = function(employee) {
         console.log('addLocation');
         if(navigator.geolocation){
             // timeout at 60000 milliseconds (60 seconds)
-            var options = {timeout:60000};
+            var options = {
+                enableHighAccuracy: false,
+                timeout: 10000,
+                maximumAge: 10000
+            };
             navigator.geolocation.getCurrentPosition(
                 onSuccess,onError,
                 options);
