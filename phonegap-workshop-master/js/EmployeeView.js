@@ -42,7 +42,7 @@ var EmployeeView = function(employee) {
             // timeout at 60000 milliseconds (60 seconds)
             var options = {
                 enableHighAccuracy: true,
-                timeout: 10000,
+                timeout: 60000,
                 maximumAge: 10000
             };
             navigator.geolocation.getCurrentPosition(
