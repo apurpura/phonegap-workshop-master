@@ -41,7 +41,7 @@ var EmployeeView = function(employee) {
         if(navigator.geolocation){
             // timeout at 60000 milliseconds (60 seconds)
             var options = {
-                enableHighAccuracy: false,
+                enableHighAccuracy: true,
                 timeout: 10000,
                 maximumAge: 10000
             };
