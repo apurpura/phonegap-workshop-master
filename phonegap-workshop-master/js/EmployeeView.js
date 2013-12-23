@@ -39,16 +39,15 @@ var EmployeeView = function(employee) {
         event.preventDefault();
         console.log('addLocation');
         navigator.geolocation.getCurrentPosition(
-            onSuccess,onError, {timeout:10000});
+            onSuccess,onError, {timeout:60000});
         return false;};
 
     function onSuccess (position) {
-        showAlert('Error getting location', 'Location Error');
         $('.location', this.el).html(position.coords.latitude + ',' + position.coords.longitude);
     }
 
     function onError () {
-        showAlert('Error getting location', 'Location Error');
+        showAlert('uable to get location', 'Location Error');
     }
 
 
