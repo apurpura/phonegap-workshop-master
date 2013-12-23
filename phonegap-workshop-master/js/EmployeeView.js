@@ -38,16 +38,28 @@ var EmployeeView = function(employee) {
     this.addLocation = function(event) {
         event.preventDefault();
         console.log('addLocation');
-        navigator.geolocation.getCurrentPosition(
-            onSuccess,onError, {timeout:60000});
+        if(navigator.geolocation){
+            // timeout at 60000 milliseconds (60 seconds)
+            var options = {timeout:60000};
+            navigator.geolocation.getCurrentPosition(
+                onSuccess,onError,
+                options);
+        }else{
+            showAlert("Sorry, browser does not support geolocation!", "Browser unsupported");
+        }
+
         return false;};
 
     function onSuccess (position) {
         $('.location', this.el).html(position.coords.latitude + ',' + position.coords.longitude);
     }
 
-    function onError () {
-        showAlert('uable to get location', 'Location Error');
+    function onError (err) {
+        if(err.code == 1) {
+            showAlert("Location Error: Access is denied!", "Location Access Error");
+        }else if( err.code == 2) {
+            showAlert("Location Error: Position is unavailable!", "Location Error");
+        }
     }
 
 
