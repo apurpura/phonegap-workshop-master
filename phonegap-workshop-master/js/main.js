@@ -68,7 +68,7 @@ var app = {
         }},
 
     addListener: function() {
-        var pushNotification = window.plugins.pushNotification;pushNotification.register(app.successHandler, app.errorHandler,{"senderID":"824841663931","ecb":"app.onNotificationGCM"});
+        var pushNotification = window.plugins.pushNotification;pushNotification.register(app.successHandler, app.errorHandler,{"senderID":"pickup-game-662495","ecb":"app.onNotificationGCM"});
     },
 
     // result contains any message sent from the plugin
