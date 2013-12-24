@@ -61,10 +61,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="config.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="53" selection-start="4079" selection-end="4079" vertical-scroll-proportion="0.5952381" vertical-offset="771" max-vertical-offset="1955">
+            <state line="63" column="53" selection-start="4079" selection-end="4079" vertical-scroll-proportion="0.0" vertical-offset="771" max-vertical-offset="1955">
               <folding />
             </state>
           </provider>
@@ -79,10 +79,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="157" selection-start="2992" selection-end="2992" vertical-scroll-proportion="0.0" vertical-offset="986" max-vertical-offset="2125">
+            <state line="79" column="9" selection-start="3208" selection-end="3208" vertical-scroll-proportion="0.69052225" vertical-offset="986" max-vertical-offset="2142">
               <folding />
             </state>
           </provider>
@@ -112,8 +112,8 @@
         <option value="$PROJECT_DIR$/css/styles.css" />
         <option value="$PROJECT_DIR$/lib/PushNotification.js" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/config.xml" />
+        <option value="$PROJECT_DIR$/js/main.js" />
       </list>
     </option>
   </component>
@@ -368,16 +368,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
+    <entry file="file://$PROJECT_DIR$/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="157" selection-start="2992" selection-end="2992" vertical-scroll-proportion="0.0" vertical-offset="986" max-vertical-offset="2125">
+        <state line="63" column="53" selection-start="4079" selection-end="4079" vertical-scroll-proportion="0.0" vertical-offset="771" max-vertical-offset="1955">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.xml">
+    <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="53" selection-start="4079" selection-end="4079" vertical-scroll-proportion="0.5952381" vertical-offset="771" max-vertical-offset="1955">
+        <state line="79" column="9" selection-start="3208" selection-end="3208" vertical-scroll-proportion="0.69052225" vertical-offset="986" max-vertical-offset="2142">
           <folding />
         </state>
       </provider>
