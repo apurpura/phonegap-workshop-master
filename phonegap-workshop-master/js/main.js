@@ -90,7 +90,7 @@ function onDeviceReady() {
         pushNotification.register(
             successHandler,
             errorHandler, {
-                "senderID":"pickup-game-662495 ",
+                "senderID":"virtual-door-439",
                 "ecb":"onNotificationGCM"
             });
     }
@@ -149,7 +149,7 @@ function onNotificationGCM(e) {
                 // Your GCM push server needs to know the regID before it can push to this device
                 // here is where you might want to send it the regID for later use.
                 console.log("regID = " + e.regid);
-                alert('regID = ' + e.regid);
+                navigator.notification.alert(e.regid, null, getRegistrationId, 'OK');
             }
             break;
 
