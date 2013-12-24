@@ -81,7 +81,7 @@
     <icon src="img/appLogoPickups.png" gap:platform="winphone"   gap:role="background" />
 
     <!-- Define app splash screen for each platform. -->
-    <gap:splash src="img/appLogoPickups.png" gap:platform="android" gap:density="ldpi" />
+    <!--<gap:splash src="img/appLogoPickups.png" gap:platform="android" gap:density="ldpi" />
     <gap:splash src="img/appLogoPickups.png"  gap:platform="android" gap:density="mdpi" />
     <gap:splash src="img/appLogoPickups.png" gap:platform="android" gap:density="hdpi" />
     <gap:splash src="img/appLogoPickups.png" gap:platform="android" gap:density="xhdpi" />
@@ -90,7 +90,7 @@
     <gap:splash src="img/appLogoPickups.png" gap:platform="ios"     width="640" height="960" />
     <gap:splash src="img/appLogoPickups.png"  gap:platform="ios"     width="768" height="1024" />
     <gap:splash src="img/appLogoPickups.png"     gap:platform="ios"     width="1024" height="768" />
-    <gap:splash src="img/appLogoPickups.png" gap:platform="winphone" />
+    <gap:splash src="img/appLogoPickups.png" gap:platform="winphone" />-->
 
     <!--
         Define access to external domains.
