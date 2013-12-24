@@ -64,7 +64,7 @@
       <file leaf-file-name="config.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="53" selection-start="4952" selection-end="4952" vertical-scroll-proportion="0.6904762" vertical-offset="944" max-vertical-offset="1972">
+            <state line="93" column="44" selection-start="6278" selection-end="6278" vertical-scroll-proportion="0.6626984" vertical-offset="1247" max-vertical-offset="1972">
               <folding />
             </state>
           </provider>
@@ -223,6 +223,11 @@
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../phonegap-workshop-solutions-master/phonegap-workshop-solutions-master/part12" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\apurpura\Downloads\phonegap-workshop-master\phonegap-workshop-master\img" />
+    </key>
+  </component>
   <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true" temporary="true" uri="http://localhost:63342/phonegap-workshop-master/index.html">
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
@@ -362,9 +367,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/img/appLogoPickups.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="53" selection-start="4952" selection-end="4952" vertical-scroll-proportion="0.6904762" vertical-offset="944" max-vertical-offset="1972">
+        <state line="93" column="44" selection-start="6278" selection-end="6278" vertical-scroll-proportion="0.6626984" vertical-offset="1247" max-vertical-offset="1972">
           <folding />
         </state>
       </provider>
